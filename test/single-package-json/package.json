@@ -1,0 +1,25 @@
+{
+  "bin": "src/main.js",
+  "browser": "./src/main.js",
+  "scripts": {
+    "build": "webpack -c ./webpack.config.js"
+  },
+  "esy": {
+    "buildsInSource": "unsafe"
+  },
+  "installConfig": {
+    "pnp": false
+  },
+  "dependencies": {
+    "ocaml": "5.x",
+    "@opam/reason": "*",
+    "@opam/melange": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*",
+    "@opam/ocamlformat-rpc": "*",
+    "webpack-cli": "*",
+    "webpack": "*"
+  }
+}

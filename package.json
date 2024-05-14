@@ -1,0 +1,9 @@
+{
+  "name": "reason-loader",
+  "version": "0.1.0-dev.8",
+  "module": "index.js",
+  "devDependencies": {
+    "prettier": "*",
+    "webpack": "5.x"
+  }
+}

@@ -1,0 +1,15 @@
+# Emacs
+*~
+
+# NPM
+node_modules
+
+# Webpack (for test)
+dist
+.cache
+
+# Esy (for test)
+_esy
+
+# Merlin (https://github.com/ocaml/merlin)
+.merlin

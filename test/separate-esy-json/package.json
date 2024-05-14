@@ -1,0 +1,13 @@
+{
+  "bin": "src/main.js",
+  "browser": "./src/main.js",
+  "scripts": {
+    "esy": "esy",
+    "build": "webpack -c ./webpack.config.js"
+  },
+  "devDependencies": {
+    "esy": "latest",
+    "webpack-cli": "*",
+    "webpack": "*"
+  }
+}

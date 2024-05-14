@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "ocaml": "5.x",
+    "@opam/reason": "*",
+    "@opam/melange": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*",
+    "@opam/ocamlformat-rpc": "*"
+  },
+  "installConfig": {
+    "pnp": false
+  },
+  "esy": {
+    "buildsInSource": "unsafe"
+  }
+}
